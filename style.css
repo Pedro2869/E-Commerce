@@ -163,10 +163,22 @@ main section#image-main img {
 
 #prices {
     border: 1px solid red;
+
+    margin: 1rem;
 }
 
 #prices h2 {
+    font-size: 18px !important;
     text-align: center;
     color: var(--cor-paragraph);
+    text-transform: uppercase;
+    font-weight: 600 !important;
+    overflow: hidden;
+    margin: 1rem 0 30px -55px !important;
+    letter-spacing: 0.25em;
+}
+
+#prices .price {
+    display: flex;
 }
 
