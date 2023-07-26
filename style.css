@@ -162,9 +162,7 @@ main section#image-main img {
 }
 
 #prices {
-    border: 1px solid red;
-
-    margin: 1rem;
+    margin: 2rem;
 }
 
 #prices h2 {
@@ -178,7 +176,10 @@ main section#image-main img {
     letter-spacing: 0.25em;
 }
 
-#prices .price {
+#prices .images {
     display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 1.2rem;
 }
 
