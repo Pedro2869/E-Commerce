@@ -183,3 +183,63 @@ main section#image-main img {
     margin-bottom: 1.2rem;
 }
 
+#prices .images .price img {
+    transition-duration: .8s;
+}
+
+#prices .images .price img:hover {
+    transform: scale(1.1) rotate(-4deg);
+}
+
+#selections {
+    /* border: 1px solid red; */
+
+    margin: 3rem;
+
+    padding: 10px;
+}
+
+#selections h2 {
+    margin-bottom: 1rem;
+}
+
+#selections .carrossel {
+    display: flex;
+    gap: 2rem;
+}
+
+#selections .section-title {
+    text-align: center;
+    color: var(--cor-paragraph);
+}
+
+#selections .carrossel .selection {
+    display: flex;
+    flex-direction: column;
+}
+
+#selections .carrossel .selection img {
+    width: auto;
+    height: 19rem;
+    transition-duration: .5s;
+}
+
+#selections .carrossel .selection img:hover {
+    border-radius: 5rem;
+    transform: scale(1.05);
+}
+
+#selections .carrossel .selection p {
+    margin-top: .5rem;
+}
+
+#selections .carrossel .selection .text-color,
+#selections .carrossel .selection h3 {
+    color: var(--cor-text);
+    font-weight: bold;
+}
+
+#highs {
+    border: 1px solid red;
+}
+
