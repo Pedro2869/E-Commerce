@@ -200,7 +200,14 @@ main section#image-main img {
 }
 
 #selections h2 {
-    margin-bottom: 1rem;
+    font-size: 18px !important;
+    text-align: center;
+    color: var(--cor-paragraph);
+    text-transform: uppercase;
+    font-weight: 600 !important;
+    overflow: hidden;
+    margin: 1rem 0 30px -55px !important;
+    letter-spacing: 0.25em;
 }
 
 #selections .carrossel {
@@ -231,6 +238,7 @@ main section#image-main img {
 
 #selections .carrossel .selection p {
     margin-top: .5rem;
+    color: var(--cor-paragraph);
 }
 
 #selections .carrossel .selection .text-color,
@@ -240,6 +248,50 @@ main section#image-main img {
 }
 
 #highs {
-    border: 1px solid red;
+    /* border: 1px solid red; */
+
+    padding: 2rem;
+}
+
+#highs h2 {
+    font-size: 18px !important;
+    text-align: center;
+    color: var(--cor-paragraph);
+    text-transform: uppercase;
+    font-weight: 600 !important;
+    overflow: hidden;
+    margin: 1rem 0 30px -55px !important;
+    letter-spacing: 0.25em;
+}
+
+#highs .high-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+#highs .high-images .high {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+#highs .high-images .high p {
+    color: var(--cor-paragraph);
+}
+
+#highs .high-images .high h3 {
+    font-weight: bold;
+
+    color: var(--cor-text);
+}
+
+#highs .high-images .high img {
+    transition-duration: .5s;
+}
+
+#highs .high-images .high img:hover {
+    transform: scale(1.1);
 }
 
