@@ -287,6 +287,15 @@ main section#image-main img {
     color: var(--cor-text);
 }
 
+#highs .high-images .high p.to-bye {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #656565;
+    font-weight: 700;
+    font-size: 14px;
+    padding-bottom: 3px;
+}
+
 #highs .high-images .high img {
     transition-duration: .5s;
 }
@@ -295,3 +304,26 @@ main section#image-main img {
     transform: scale(1.1);
 }
 
+#opportunities {
+    border: 1px solid red;
+
+    margin: 3rem;
+}
+
+#opportunities h2 {
+    font-size: 18px !important;
+    text-align: center;
+    color: var(--cor-paragraph);
+    text-transform: uppercase;
+    font-weight: 600 !important;
+    overflow: hidden;
+    margin: 1rem 0 30px -55px !important;
+    letter-spacing: 0.25em;
+}
+
+#opportunities .images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
