@@ -305,7 +305,7 @@ main section#image-main img {
 }
 
 #opportunities {
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
     margin: 3rem;
 }
@@ -327,3 +327,72 @@ main section#image-main img {
     align-items: center;
     gap: 3rem;
 }
+
+#opportunities .images img {
+    transition-duration: .8s;
+}
+
+#opportunities .images img:hover {
+    transform: scale(1.1);
+}
+
+#opportunities .images p {
+    color: var(--cor-paragraph);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#opportunities .images .opportunitie p.bye-opportunitie {
+    text-decoration: underline;
+}
+
+#opportunities .images h3 {
+    color: var(--cor-text);
+    font-weight: bold;
+}
+
+#opportunities .images .opportunitie {
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+}
+
+#marks .images {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#marks h2 {
+    font-size: 18px !important;
+    text-align: center;
+    color: var(--cor-paragraph);
+    text-transform: uppercase;
+    font-weight: 600 !important;
+    overflow: hidden;
+    margin: 1rem 0 30px -55px !important;
+    letter-spacing: 0.25em;
+}
+
+#marks .images {
+    padding: 1rem;
+
+    margin: 1rem;
+}
+
+#marks .mark img {
+    width: 121px;
+    height: auto !important;
+
+    transition-duration: .4s;
+}
+
+#marks .mark img:hover {
+    transform: scale(1.1);
+}
+
+#persons {
+    border: 1px solid red;
+}
+
