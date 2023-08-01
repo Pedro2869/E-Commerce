@@ -28,10 +28,14 @@ header .home {
 header .home input {
    width: 40rem;
    height: 37px;
+
    margin-left: 40px;
+
    padding: 8px 3px 7px 7px;
+
    border: solid thin #ebebeb;
    border-right: none;
+
    background: #fff;
    font-style: italic;
    color: #555;
@@ -344,6 +348,8 @@ main section#image-main img {
 
 #opportunities .images .opportunitie p.bye-opportunitie {
     text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 #opportunities .images h3 {
@@ -470,5 +476,106 @@ main section#image-main img {
 #disney-special .images .special p {
     color: var(--cor-paragraph);
     margin-top: 1rem;
+}
+
+footer {
+    background-color: var(--cor-paragraph);
+    color: var(--cor-principal);
+    text-align: center;
+    padding: 2.5rem;
+
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 375px) {
+
+    header .home {
+        display: flex;
+        flex-direction: column;
+
+        margin-top: 4rem;
+    }
+
+    header .home input {
+        width: 300px;
+        height: 300px;
+    }
+
+    header .links-menu {
+        display: none;
+    }
+
+    main #image-main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main #image-main .informations {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main #image-main .image {
+        width: 280px;
+        height: auto;
+    }
+
+    main #highlights {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main #prices h2.section-title {
+        text-align: center;
+    }
+
+    main #prices .images {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    main #selections .carrossel {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main #highs .high-images {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main #opportunities {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main #opportunities .images {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main #marks .images {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main #persons .images {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main #disney-special .images {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
