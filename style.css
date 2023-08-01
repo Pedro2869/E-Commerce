@@ -393,6 +393,82 @@ main section#image-main img {
 }
 
 #persons {
-    border: 1px solid red;
+    margin: 2rem;
+}
+
+#persons h2 {
+    font-size: 18px !important;
+    text-align: center;
+    color: var(--cor-paragraph);
+    text-transform: uppercase;
+    font-weight: 600 !important;
+    overflow: hidden;
+    margin: 1rem 0 30px -55px !important;
+    letter-spacing: 0.25em;
+}
+
+#persons .images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: 1rem;
+}
+
+#persons .images .person img {
+    width: 121px;
+    height: auto !important;
+
+    transition-duration: .4s;
+}
+
+#persons .images .person img:hover {
+    transform: scale(1.1);
+}
+
+#disney-special {
+    width: 100%;
+    height: auto;
+}
+
+#disney-special h2 {
+    font-size: 18px !important;
+    text-align: center;
+    color: var(--cor-paragraph);
+    text-transform: uppercase;
+    font-weight: 600 !important;
+    overflow: hidden;
+    margin: 1rem 0 30px -55px !important;
+    letter-spacing: 0.25em;
+}
+
+#disney-special .images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+#disney-special .images .special {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#disney-special .images .special img {
+    width: 121px;
+    height: auto !important;
+
+    transition-duration: .4s;
+}
+
+#disney-special .images .special img:hover {
+    transform: scale(1.1);
+}
+
+#disney-special .images .special p {
+    color: var(--cor-paragraph);
+    margin-top: 1rem;
 }
 
