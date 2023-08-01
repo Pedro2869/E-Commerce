@@ -518,8 +518,10 @@ footer {
     }
 
     main #image-main .image {
-        width: 280px;
+        width: 19rem;
         height: auto;
+        position: relative;
+        right: 3rem;
     }
 
     main #highlights {
