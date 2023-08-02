@@ -46,6 +46,8 @@ header .home input {
 header .home svg {
     width: 50px;
     height: 50px;
+
+    margin-left: 10rem;
 }
 
 .links-menu nav ul {
@@ -555,6 +557,8 @@ footer {
 
     main #prices h2.section-title {
         text-align: center;
+        position: relative;
+        left: 2rem;
     }
 
     main #prices .images {
@@ -567,11 +571,21 @@ footer {
 
     main #selections .section-title {
         text-align: center;
+
+        position: relative;
+        left: 2rem;
     }
 
     main #selections .carrossel {
         display: flex;
         flex-direction: column;
+    }
+
+    main #highs h2 {
+        text-align: center;
+
+        position: relative;
+        left: 2rem;
     }
 
     main #highs .high-images {
@@ -586,9 +600,23 @@ footer {
         align-items: center;
     }
 
+    main #opportunities h2.section-title-text {
+        text-align: center;
+
+        position: relative;
+        left: 2rem;
+    }
+
     main #opportunities .images {
         display: flex;
         flex-direction: column;
+    }
+
+    main #marks h2 {
+        text-align: center;
+
+        position: relative;
+        left: 2rem;
     }
 
     main #marks .images {
@@ -598,9 +626,23 @@ footer {
         align-items: center;
     }
 
+    main #persons h2 {
+        text-align: center;
+
+        position: relative;
+        left: 2rem;
+    }
+
     main #persons .images {
         display: flex;
         flex-direction: column;
+    }
+
+    main #disney-special h2 {
+        text-align: center;
+
+        position: relative;
+        left: 2rem;
     }
 
     main #disney-special .images {
