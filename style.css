@@ -500,12 +500,11 @@ main section#image-main img {
 }
 
 footer {
-    background-color: var(--cor-paragraph);
-    color: var(--cor-principal);
+    background-color: #f2f2f2;
+    padding: 20px;
     text-align: center;
-    padding: 2.5rem;
-
-    margin-top: 1rem;
+    color: #333;
+    font-size: 14px;
 }
 
 @media screen and (max-width: 375px) {
