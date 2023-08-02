@@ -74,6 +74,27 @@ header .home svg {
 .links-menu nav ul li a {
     color: black;
     text-decoration: none;
+    border-color: #eee;
+    border-left-color: #fff;
+    border-style: solid;
+    border-width: 0 1px 0 0;
+    line-height: 30px;
+}
+
+.links-menu .btn-roxo {
+    border-bottom: 3px solid #cca6ff;
+}
+
+.links-menu .btn-azul-claro {
+    border-bottom: 3px solid #69ffc2;
+}
+
+.links-menu .btn-amarelo {
+    border-bottom: 3px solid #fff070;
+}
+
+.links-menu .btn-vermelho {
+    border-bottom: 3px solid #dc1150;
 }
 
 main {
@@ -489,6 +510,10 @@ footer {
 
 @media screen and (max-width: 375px) {
 
+    body {
+        overflow-x: hidden;
+    }
+
     header .home {
         display: flex;
         flex-direction: column;
@@ -539,6 +564,10 @@ footer {
         justify-content: center;
         align-items: center;
         gap: 1rem;
+    }
+
+    main #selections .section-title {
+        text-align: center;
     }
 
     main #selections .carrossel {
