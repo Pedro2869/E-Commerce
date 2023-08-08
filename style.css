@@ -12,6 +12,11 @@
     --cor-paragraph: #656565;
 }
 
+#dark-theme {
+    background-color: rgba(0, 0, 0, 0.87);
+    color: var(--cor-principal);
+}
+
 body {
     font-family: 'Roboto',Arial,sans-serif;
 }
@@ -648,6 +653,11 @@ footer {
     main #disney-special .images {
         display: flex;
         flex-direction: column;
+    }
+
+    main #image-main #carouselExample {
+        width: 100%;
+        height: auto;
     }
 }
 
