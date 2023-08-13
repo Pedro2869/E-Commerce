@@ -681,3 +681,170 @@ footer {
     }
 }
 
+@media screen and (max-width: 320px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    header .home {
+        display: flex;
+        flex-direction: column;
+
+        margin-top: 4rem;
+    }
+
+    header .home img {
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header .home input {
+        width: 300px;
+        height: 300px;
+        border-radius: 1rem;
+
+        text-align: center;        
+    }
+
+    header .links-menu {
+        display: none;
+    }
+
+    main #image-main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main #image-main .informations {
+        display: flex;
+        flex-direction: column;
+        margin-top: 3rem;
+    }
+
+    main #image-main .image {
+        width: 19rem;
+        height: auto;
+        position: relative;
+        right: 3rem;
+    }
+
+    main #highlights {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main #prices h2.section-title {
+        text-align: center;
+        position: relative;
+        left: 2rem;
+    }
+
+    main #prices .images {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    main #prices .images .price {
+        margin-bottom: 3rem;
+    }
+
+    main #selections .section-title {
+        text-align: center;
+
+        position: relative;
+        left: 2rem;
+    }
+
+    main #selections .carrossel {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main #highs h2 {
+        text-align: center;
+
+        position: relative;
+        left: 2rem;
+    }
+
+    main #highs .high-images {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main #opportunities {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main #opportunities h2.section-title-text {
+        text-align: center;
+
+        position: relative;
+        left: 2rem;
+    }
+
+    main #opportunities .images {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main #marks h2 {
+        text-align: center;
+
+        position: relative;
+        left: 2rem;
+    }
+
+    main #marks .images {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main #persons h2 {
+        text-align: center;
+
+        position: relative;
+        left: 2rem;
+    }
+
+    main #persons .images {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main #disney-special h2 {
+        text-align: center;
+
+        position: relative;
+        left: 2rem;
+    }
+
+    main #disney-special .images {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main #image-main #carouselExample {
+        width: 100%;
+        height: auto;
+    }
+
+    main section #carouselExample {
+        display: none;
+    }
+}
+
