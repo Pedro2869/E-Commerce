@@ -586,6 +586,10 @@ footer {
         gap: 1rem;
     }
 
+    main #prices .images .price {
+        margin-bottom: 3rem;
+    }
+
     main #selections .section-title {
         text-align: center;
 
