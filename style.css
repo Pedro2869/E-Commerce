@@ -53,6 +53,8 @@ header .home svg {
     height: 50px;
 
     margin-left: 10rem;
+
+    cursor: pointer;
 }
 
 .links-menu nav ul {
